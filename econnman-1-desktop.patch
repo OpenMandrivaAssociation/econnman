@@ -1,0 +1,39 @@
+Index: econnman-1/data/desktop/econnman-agent.desktop
+===================================================================
+--- econnman-1.orig/data/desktop/econnman-agent.desktop
++++ econnman-1/data/desktop/econnman-agent.desktop
+@@ -1,6 +1,5 @@
+ [Desktop Entry]
+ Type=Application
+-Icon=econnman
+ Name=EConnMan with Agent
+ Name[it]=EconnMan con agente
+ Name[pt]=EconnMan com agente
+@@ -9,7 +8,7 @@ GenericName[pt]=Gestor de ligações
+ Comment=Manage your internet connections using ConnMan and EFL. Version with agent to get passwords and other input.
+ Comment[it]=Gestisce le connessioni internet usando ConnMan e le EFL. Versione con agente per password e altri input.
+ Comment[pt]=Gestão das ligações internet com o ConnMan e o EFL. Versão com agente para obter senhas e outros dados
+-Categories=Network;Settings;Enlightenment;
++Categories=Network;Settings;Dialup;Monitor;
+ Exec=econnman-bin --agent
+ StartupNotify=true
+ Terminal=false
+Index: econnman-1/data/desktop/econnman.desktop
+===================================================================
+--- econnman-1.orig/data/desktop/econnman.desktop
++++ econnman-1/data/desktop/econnman.desktop
+@@ -1,13 +1,12 @@
+ [Desktop Entry]
+ Type=Application
+-Icon=econnman
+ Name=EConnMan
+ GenericName=Connection Manager
+ GenericName[pt]=Gestor de ligações
+ Comment=Manage your internet connections using ConnMan and EFL
+ Comment[it]=Gestisce le connessioni internet usando ConnMan e le EFL.
+ Comment[pt]=Gestão de ligações internet com o ConnMan e o EFL
+-Categories=Network;Settings;Enlightenment;
++Categories=Network;Settings;Dialup;Monitor;
+ Exec=econnman-bin
+ StartupNotify=true
+ Terminal=false

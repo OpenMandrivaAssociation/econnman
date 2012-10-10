@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(python-elementary)
 BuildRequires:	pkgconfig(python-edbus)
+BuildRequires:	pkgconfig(python-evas)
 Requires:	python-ecore
 Requires:	python-edje
 Requires:	python-elementary

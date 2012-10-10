@@ -10,6 +10,8 @@ Source:		http://packages.profusion.mobi/econnman/econnman-1.tar.bz2
 Patch:		econnman-1-desktop.patch
 BuildRequires:	automake
 BuildRequires:	edje
+BuildRequires:	embryo
+BuildRequires:	evas
 BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(python-elementary)

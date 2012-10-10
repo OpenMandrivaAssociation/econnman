@@ -11,6 +11,7 @@ Patch:		econnman-1-desktop.patch
 BuildRequires:	automake
 BuildRequires:	edje
 BuildRequires:	pkgconfig(elementary)
+BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(python-elementary)
 BuildRequires:	pkgconfig(python-edbus)
 Requires:	python-ecore

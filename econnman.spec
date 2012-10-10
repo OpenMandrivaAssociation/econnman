@@ -10,7 +10,7 @@ Source:		http://packages.profusion.mobi/econnman/econnman-1.tar.bz2
 Patch:		econnman-1-desktop.patch
 BuildRequires:	automake
 BuildRequires:	pkgconfig(python-elementary)
-BuildRequires:	pkgconfig(python-e_dbus)
+BuildRequires:	pkgconfig(python-edbus)
 Requires:	python-ecore
 Requires:	python-edje
 Requires:	python-elementary

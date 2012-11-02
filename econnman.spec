@@ -1,6 +1,9 @@
+%define _enable_debug_packages %{nil}
+%define debug_package %{nil}
+
 Name:		econnman
 Version:	1
-Release:	1
+Release:	2
 License:	GPLv2
 Summary:	EFL user interface for ConnMan
 Url:		http://enlightenment.org/

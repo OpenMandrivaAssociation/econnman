@@ -1,0 +1,62 @@
+diff -urN econnman-1.1/data/desktop/econnman-agent.desktop econnman-1.1-patched/data/desktop/econnman-agent.desktop
+--- econnman-1.1/data/desktop/econnman-agent.desktop	2013-12-01 04:08:06.000000000 +1100
++++ econnman-1.1-patched/data/desktop/econnman-agent.desktop	2013-12-24 16:26:19.686916956 +1100
+@@ -1,6 +1,5 @@
+ [Desktop Entry]
+ Type=Application
+-Icon=econnman
+ Name=EConnMan with Agent
+ Name[eo]=EConnMak kun agento
+ Name[es]=EConnMan con agente
+@@ -8,11 +7,13 @@
+ Name[it]=EconnMan con agente
+ Name[pl]=EconnMan z Agentem
+ Name[pt]=EconnMan com agente
++Name[ru]=Агент EconnMan
+ GenericName=Connection Manager
+ GenericName[es]=Administrador de conexiones
+ GenericName[gl]=Xestor de conexións
+ GenericName[pl]=Menadżer Połączeń
+ GenericName[pt]=Gestor de ligações
++GenericName[ru]=Менеджер соединений
+ Comment=Manage your internet connections using ConnMan and EFL. Version with agent to get passwords and other input.
+ Comment[eo]=Administri viajn interretajn konektadojn pere de ConnMan kaj EFL. Versio kun agento por akiri pasvortojn aŭ aliajn enigojn.
+ Comment[es]=Administre sus conexiones a internet usando ConnMan y EFL. Versión con agente para obtener contraseñas y otras entradas.
+@@ -20,7 +21,8 @@
+ Comment[it]=Gestisce le connessioni internet usando ConnMan e le EFL. Versione con agente per password e altri input.
+ Comment[pl]=Zarządzaj połączeniami z Internetem z użyciem ConnMan i EFL. Wersja z agentem umożliwia używanie haseł i innych parametrów.
+ Comment[pt]=Gestão das ligações internet com o ConnMan e o EFL. Versão com agente para obter senhas e outros dados
+-Categories=Network;Settings;Enlightenment;
++Comment[ru]=Настройка сетевых подключений с помощью ConnMan и EFL. Вариант с агентом для ввода паролей и т.п.
++Categories=Network;Settings;Dialup;Monitor;
+ Exec=econnman-bin --agent
+ StartupNotify=true
+ Terminal=false
+diff -urN econnman-1.1/data/desktop/econnman.desktop econnman-1.1-patched/data/desktop/econnman.desktop
+--- econnman-1.1/data/desktop/econnman.desktop	2013-12-01 04:08:06.000000000 +1100
++++ econnman-1.1-patched/data/desktop/econnman.desktop	2013-12-24 16:24:30.327205769 +1100
+@@ -1,6 +1,5 @@
+ [Desktop Entry]
+ Type=Application
+-Icon=econnman
+ Name=EConnMan
+ GenericName=Connection Manager
+ GenericName[eo]=Administrilo de konektadoj
+@@ -8,6 +7,7 @@
+ GenericName[gl]=Xestor de conexións
+ GenericName[pl]=Menadżer Połączeń
+ GenericName[pt]=Gestor de ligações
++GenericName[ru]=Менеджер соединений
+ Comment=Manage your internet connections using ConnMan and EFL
+ Comment[eo]=Administri viajn interretajn konektadoj pere de ConnMan kaj EFL.
+ Comment[es]=Administre sus conexiones a internet usando ConnMan y EFL.
+@@ -15,7 +15,8 @@
+ Comment[it]=Gestisce le connessioni internet usando ConnMan e le EFL.
+ Comment[pl]=Zarządzaj połączeniami z Internetem z użyciem ConnMan i EFL.
+ Comment[pt]=Gestão de ligações internet com o ConnMan e o EFL
+-Categories=Network;Settings;Enlightenment;
++Comment[ru]=Настройка сетевых подключений с помощью ConnMan и EFL
++Categories=Network;Settings;Dialup;Monitor;
+ Exec=econnman-bin
+ StartupNotify=true
+ Terminal=false

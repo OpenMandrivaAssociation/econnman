@@ -8,6 +8,7 @@ Url:		http://enlightenment.org/
 Source:		http://download.enlightenment.org/rel/apps/%{name}/%{name}-%{version}.tar.gz
 Patch:		econnman-1.1-desktop.patch
 BuildRequires:	edje
+BuildRequires:	pkgconfig(edje)
 Requires:	python-dbus
 Requires:	python-efl
 Requires:	connman

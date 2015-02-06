@@ -1,7 +1,7 @@
 Summary:	EFL user interface for ConnMan
 Name:		econnman
 Version:	1.1
-Release:	1
+Release:	2
 License:	LGPLv3+
 Group:		Graphical desktop/Enlightenment
 Url:		http://enlightenment.org/

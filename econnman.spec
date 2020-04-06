@@ -1,15 +1,15 @@
 Summary:	EFL user interface for ConnMan
 Name:		econnman
 Version:	1.1
-Release:	3
+Release:	4
 License:	LGPLv3+
 Group:		Graphical desktop/Enlightenment
 Url:		http://enlightenment.org/
 Source:		http://download.enlightenment.org/rel/apps/%{name}/%{name}-%{version}.tar.gz
 Patch:		econnman-1.1-desktop.patch
-BuildRequires:	pkgconfig(edje) >= 1.19.1
+BuildRequires:	pkgconfig(edje)
 Requires:	python-dbus
-Requires:	python-efl => 1.19.0
+Requires:	python-efl
 Requires:	connman
 BuildArch:	noarch
 
@@ -30,8 +30,7 @@ EFL user interface for ConnMan (Connection Manager).
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
-
+%make_install

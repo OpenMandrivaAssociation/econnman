@@ -25,7 +25,7 @@ EFL user interface for ConnMan (Connection Manager).
 #----------------------------------------------------------------------------
 
 %prep
-%autopatch -p1
+%autosetup -p1
 
 %build
 %configure

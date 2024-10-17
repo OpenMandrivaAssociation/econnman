@@ -4,7 +4,7 @@ Version:	1.1
 Release:	5
 License:	LGPLv3+
 Group:		Graphical desktop/Enlightenment
-Url:		http://enlightenment.org/
+Url:		https://enlightenment.org/
 Source:		http://download.enlightenment.org/rel/apps/%{name}/%{name}-%{version}.tar.xz
 Patch:		econnman-1.1-desktop.patch
 BuildRequires:	pkgconfig(edje)
